@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Train Schedule Manager</title>
+   <link rel="stylesheet" href="train.css">
+</head>
+<body>
+    <center><h1>Train Schedule Manager</h1></center>
+    <label for="train-number"><b>Train Number</b>:</label>
+    <input type="text" id="train-number"><br>
+    <br><label for="arrival-time"><b>Arrival time</b>:</label>
+    <input type="time" id="arrival-time" placeholder="Arrival Time"><br>
+    <br><label for="departure-time"><b>Departure time</b>:</label>
+    <input type="time" id="departure-time" placeholder="Departure Time"><br>
+    <br><button id="add-train">Add Train</button>
+    <ul id="train-list" class="train-list"></ul>
+    <div class="total-trains">Total Trains: <span id="total-trains">0</span></div>
+
+    <script src=train.js></script>
+</body>
+</html>

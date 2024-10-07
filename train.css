@@ -1,0 +1,35 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background: #99c1dd; 
+    color: rgba(0, 0, 0, 0.945); 
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px; 
+}
+ h1 {
+     color:blue;
+}
+input, button {
+     background-color: rgba(128, 128, 128, 0.866);
+     padding: 10px; 
+     font-size: 16px; 
+     margin: 8px 0;
+}
+.train-list { 
+    list-style: 
+    none; padding: 0; 
+}
+.train-item { 
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    height: 50px;
+    width:600px;
+
+}
+.total-trains { 
+    margin-top: 20px; 
+    font-weight: bold; 
+}
